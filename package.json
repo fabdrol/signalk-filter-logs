@@ -1,7 +1,7 @@
 {
   "name": "signalk-filter-logs",
   "version": "1.0.1",
-  "description": "Signal K logs filter/sorter",
+  "description": "Signal K delta logs filter",
   "main": "index.js",
   "bin": {
     "signalk-filter-logs": "./bin/signalk-filter-logs"
