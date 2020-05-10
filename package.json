@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "tsc && DEBUG=signalk-filter-logs bin/signalk-filter-logs",
-    "build": "tsc"
+    "build": "tsc",
+    "push": "npm run build && npm publish"
   },
   "keywords": [],
   "author": "Fabian Tollenaar <fabian@decipher.industries> (https://decipher.industries)",
