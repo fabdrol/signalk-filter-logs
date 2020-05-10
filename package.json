@@ -1,6 +1,6 @@
 {
   "name": "signalk-filter-logs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Signal K delta logs filter",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,18 @@
     "build": "tsc",
     "push": "npm run build && npm publish"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabdrol/signalk-filter-logs"
+  },
+  "homepage": "https://github.com/fabdrol/signalk-filter-logs",
+  "keywords": [
+    "Signal K",
+    "log",
+    "logs",
+    "filter",
+    "cli"
+  ],
   "author": "Fabian Tollenaar <fabian@decipher.industries> (https://decipher.industries)",
   "license": "Apache-2.0",
   "standard": {
